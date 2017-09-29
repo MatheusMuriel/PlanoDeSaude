@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Consulta
+comment1.params=
+comment1.target=java.lang.String\ getNomeDoPaciente()
+comment10.params=ValorDaConsulta
+comment10.target=void\ setValorDaConsulta(float)
+comment2.params=NomeDoPaciente
+comment2.target=void\ setNomeDoPaciente(java.lang.String)
+comment3.params=
+comment3.target=int\ getMatricula()
+comment4.params=Matricula
+comment4.target=void\ setMatricula(int)
+comment5.params=
+comment5.target=int\ getNumeroDeDependentes()
+comment6.params=NumeroDeDependentes
+comment6.target=void\ setNumeroDeDependetes(int)
+comment7.params=
+comment7.target=int\ getAnoDeInclusaoNoPlano()
+comment8.params=AnoDeInclusaoNoPlano
+comment8.target=void\ setAnoDeInclusaoNoPlano(int)
+comment9.params=
+comment9.target=float\ getValorDaConsulta()
+numComments=11
