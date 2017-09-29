@@ -1,4 +1,4 @@
-#Fri Sep 29 14:29:18 BRT 2017
+#Fri Sep 29 16:22:43 BRT 2017
 bluej.teamsettings.groupname=
 bluej.teamsettings.git.repositoryPrefix=/MatheusMuriel/PlanoDeSaude.git
 bluej.teamsettings.git.protocol=https
@@ -7,8 +7,8 @@ bluej.teamsettings.git.server=github.com
 bluej.teamsettings.yourEmail=matheus.muriel@outlook.com
 bluej.teamsettings.vcs=git
 bluej.teamsettings.ignore8=\\.DS_Store
-bluej.teamsettings.yourName=MatheusMuriel
 bluej.teamsettings.ignore7=.*\\\#backup
+bluej.teamsettings.yourName=MatheusMuriel
 bluej.teamsettings.ignore6=.*\\\#
 bluej.teamsettings.ignore5=.*\\~
 bluej.teamsettings.ignore4=.*\\.ctxt

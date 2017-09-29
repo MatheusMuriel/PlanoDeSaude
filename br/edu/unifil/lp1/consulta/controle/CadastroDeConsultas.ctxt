@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CadastroDeConsultas
+comment0.text=\r\n\ \ Incluir\ uma\ nova\ Consulta\ no\ cadastro(array);\r\n\ \r\nExibir\ matr\u00EDcula\ e\ nome\ dos\ pacientes\ de\ todas\ as\ Consultas\ espec\u00EDfico\ de\ plano\ de\ sa\u00FAde\:\r\n\ \ \ \ Prata,\ Ouro,\ Diamante\ e\ Fam\u00EDlia.\r\n\ \ \ \ \r\nRetornar\ o\ n\u00FAmero\ total\ de\ Consultas\ de\ um\ tipo\ espec\u00EDfico\ de\ plano\ de\ sa\u00FAde\:\ Prata,\ Ouro,\r\n\ \ \ \ Diamante\ e\ Fam\u00EDlia.\r\n\ \ \ \ \r\nRetornar\ o\ valor\ total\ de\ Consultas\ de\ um\ tipo\ espec\u00EDfico\ de\ plano\ de\ sa\u00FAde\:\ Prata,\ Ouro,\r\n\ \ \ \ Diamante\ e\ Fam\u00EDlia.\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
