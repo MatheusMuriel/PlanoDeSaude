@@ -11,7 +11,7 @@ public class CadastroDeConsulta
 {
     // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
     private int x;
-
+    //suansajdkoaskfoaskfopaskzofkaq
     /**
      * COnstrutor para objetos da classe CadastroDeConsulta
      */
