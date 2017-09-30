@@ -16,11 +16,12 @@ public class SistemaDaClinica
             //Agendar uma consulta
             //Deve ser criado se informado os dados do paciente
             System.out.println("\n");
-            System.out.println("1- Nova consulta");
+            System.out.println("1- Nova consulta"); //Antes disso cadastrar paciente
+            
             opcao = teclado.nextInt();
             switch(opcao){
                 case 1 : System.out.print("Nome do paciente: ");
-                            nomeDoPaciente = teclado.nextLine();
+                            nomeDoPaciente = teclado.next();
                          System.out.print("Matricula: ");
                             matricula = teclado.nextInt();
                          System.out.print("Numero de Dependentes: ");
