@@ -17,7 +17,10 @@ public class SistemaDaClinica
             //Deve ser criado se informado os dados do paciente
             System.out.println("\n");
             System.out.println("1- Nova consulta"); //Antes disso cadastrar paciente
-            
+            System.out.println("2- Consultas cadastradas por plano");
+            System.out.println("3- Total de consultas por plano");
+            System.out.println("4- Total de renda por plano");
+            System.out.println("9- Fim");
             opcao = teclado.nextInt();
             switch(opcao){
                 case 1 : System.out.print("Nome do paciente: ");
@@ -26,6 +29,10 @@ public class SistemaDaClinica
                             matricula = teclado.nextInt();
                          System.out.print("Numero de Dependentes: ");
                             numeroDeDependentes = teclado.nextInt();
+                            
+                //case 2 : System.out.println("Que plano você deseja?");
+                            //valorDaConsulta = teclado.nextInt();
+                         //System.out.print(ctr.valorDaConsulta());
             }
         }
     }

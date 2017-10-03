@@ -8,11 +8,14 @@ public class CadastroDeConsulta
         listaConsultas = new CadastroDeConsulta[10];
         
     }
-
-    //Metodos   
-    // Incluir uma nova Consulta na array, valor da consulta 
+    // Fazer um Metodo para incluir uma nova Consulta na array
     protected void incluirConsulta(int matricula,
     String nomeDoPaciente, int numeroDeDependentes, int anoDeInclusaoNoPlano){
+        //Vai ser pedido na Classe Main
+        
+        
+        
+        
         //fazer referencia a uma clase para consultar paciente
         //Empregado emp = new Empregado(nome,salario);
         //listEmp.add(emp);
