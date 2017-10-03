@@ -1,35 +1,19 @@
 package br.edu.unifil.lp1.consulta.visao;
 
-
-/**
- * Escreva a descrição da classe CadastroDeConsulta aqui.
- * 
- * @author (seu nome) 
- * @version (número de versão ou data)
- */
 public class CadastroDeConsulta
 {
-    // variáveis de instância - substitua o exemplo abaixo pelo seu próprio
-    private int x;
-    //suansajdkoaskfoaskfopaskzofkaq
-    /**
-     * COnstrutor para objetos da classe CadastroDeConsulta
-     */
-    public CadastroDeConsulta()
-    {
-        // inicializa variáveis de instância
-        x = 0;
+    public CadastroDeConsulta(){
+        CadastroDeConsulta[] array = new CadastroDeConsulta[10];
+        
     }
-
-    /**
-     * Exemplo de método - substitua este comentário pelo seu próprio
-     * 
-     * @param  y   exemplo de um parâmetro de método
-     * @return     a soma de x com y 
-     */
-    public int sampleMethod(int y)
-    {
-        // ponha seu código aqui
-        return x + y;
+    
+    //Metodos   
+    // Incluir uma nova Consulta na array, valor da consulta 
+    protected void incluirConsulta(int matricula,
+     String nomeDoPaciente, int numeroDeDependentes, int anoDeInclusaoNoPlano){
+        //fazer referencia a uma clase para consultar paciente
+        //Empregado emp = new Empregado(nome,salario);
+        //listEmp.add(emp);
+        
     }
 }
