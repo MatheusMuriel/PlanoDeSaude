@@ -16,13 +16,10 @@ public class Paciente
         this.anoDeInclusao = anoDeInclusao;
         proximaMatricula++;
     }
-    
     public String getNome()
     {
         return nome;
     }
-    
-    
     public double getSalario()
     {
         return 0;
@@ -31,16 +28,12 @@ public class Paciente
     {
         
     }
-    
-    
     public void setSituacao(char situacao){
         //this.situacao = situacao;
     }
     public char getSituacao(){
         //return situacao;
     }
-    
-    
     public int getId()
     {
        return 0;
