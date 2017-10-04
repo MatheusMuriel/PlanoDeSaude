@@ -7,8 +7,7 @@ public class Consulta
     protected int numeroDeDependentes;
     protected int anoDeInclusaoNoPlano;
     protected float valorDaConsulta;
-    
-    
+
     public String getNomeDoPaciente ()
     {
        return nomeDoPaciente;
@@ -34,7 +33,7 @@ public class Consulta
        return numeroDeDependentes;
     }
     
-    public void setNumeroDeDependetes (int NumeroDeDependentes)
+    public void setNumeroDeDependentes (int NumeroDeDependentes)
     {
         this.numeroDeDependentes = NumeroDeDependentes; 
     }

@@ -2,6 +2,6 @@
 comment0.target=CadastroDeConsulta
 comment1.params=
 comment1.target=CadastroDeConsulta()
-comment2.params=matricula\ nomeDoPaciente\ numeroDeDependentes\ anoDeInclusaoNoPlano
-comment2.target=void\ incluirConsulta(int,\ java.lang.String,\ int,\ int)
+comment2.params=nomeDoPaciente\ matricula\ numeroDeDependentes\ anoDeInclusaoNoPlano\ valorDaConsulta\ planoPaciente
+comment2.target=void\ incluirConsulta(java.lang.String,\ int,\ int,\ int,\ float,\ int)
 numComments=3
