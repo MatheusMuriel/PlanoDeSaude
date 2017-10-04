@@ -2,8 +2,8 @@ package br.edu.unifil.lp1.consulta.visao;
 
 public class Paciente
 {
-    private int matricula;
     private String nome;
+    private int matricula;
     private int dependentes;
     private int anoDeInclusao;
     private static int proximaMatricula = 1;
@@ -20,26 +20,21 @@ public class Paciente
     {
         return nome;
     }
-    public double getSalario()
+    public int getMatricula()
     {
-        return 0;
+       return matricula;
     }
-    public void setSalario(double salario)
+    public int getNumeroDependente()
     {
-        
+        return dependentes;
     }
-    public void setSituacao(char situacao){
-        //this.situacao = situacao;
-    }
-    public char getSituacao(){
-        //return situacao;
-    }
-    public int getId()
+    public int getAnoDeInclusao()
     {
-       return 0;
+        return anoDeInclusao;
     }
-    public static int getProximoId()
+    
+    public static int getProximaMatricula()
     {
-        //return proximoId;
+        return proximaMatricula;
     }
 }
