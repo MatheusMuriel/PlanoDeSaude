@@ -1,9 +1,10 @@
 package br.edu.unifil.lp1.consulta.visao;
+import br.edu.unifil.lp1.consulta.controle.*;
 import java.util.Scanner;
 public class SistemaDaClinica
 {
     public static void main(String args[]){
-        CadastroDeConsulta CdC = new CadastroDeConsulta();
+        CadastroDeConsultas CdC = new CadastroDeConsultas();
         Scanner teclado = new Scanner(System.in);
         String nomeDoPaciente;
         int matricula;
@@ -44,8 +45,30 @@ public class SistemaDaClinica
                     CdC.incluirConsulta(nomeDoPaciente, matricula, numeroDeDependentes, 
                                     anoDeInclusaoNoPlano, valorDaConsulta, planoPaciente);
                     break;
-                    
                 case 2 :
+                    System.out.print("Digite o numero do plano: \n");
+                                System.out.println("1- Plano Diamante");
+                                System.out.println("2- Plano Ouro");
+                                System.out.println("3- Plano Prata");
+                                System.out.println("4- Plano Familia");
+                    planoPaciente = teclado.nextInt();
+                    break;
+                case 3 : 
+                    System.out.print("Digite o numero do plano: \n");
+                                System.out.println("1- Plano Diamante");
+                                System.out.println("2- Plano Ouro");
+                                System.out.println("3- Plano Prata");
+                                System.out.println("4- Plano Familia");
+                    planoPaciente = teclado.nextInt();
+                    break;
+                case 4 :
+                    System.out.print("Digite o numero do plano: \n");
+                                System.out.println("1- Plano Diamante");
+                                System.out.println("2- Plano Ouro");
+                                System.out.println("3- Plano Prata");
+                                System.out.println("4- Plano Familia");
+                    planoPaciente = teclado.nextInt();
+                    break;
             }
         }
     }
