@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class SistemaDaClinica
 {
     public static void main(String args[]){
-        CadastroDeConsultas CdC = new CadastroDeConsultas();
+        CadastroDeConsultas novaConsulta = new CadastroDeConsultas();
         Scanner teclado = new Scanner(System.in);
         String nomeDoPaciente;
         int matricula;
         int numeroDeDependentes;
         int anoDeInclusaoNoPlano;
         float valorDaConsulta;
-        int opcao = 0;
         int planoPaciente;
+        int opcao = 0;
 
         while(opcao != 10){
             //Agendar uma consulta
@@ -42,7 +42,7 @@ public class SistemaDaClinica
                                 System.out.println("3- Plano Prata");
                                 System.out.println("4- Plano Familia");
                     planoPaciente = teclado.nextInt();
-                    CdC.incluirConsulta(nomeDoPaciente, matricula, numeroDeDependentes, 
+                    novaConsulta.incluirConsulta(nomeDoPaciente, matricula, numeroDeDependentes, 
                                     anoDeInclusaoNoPlano, valorDaConsulta, planoPaciente);
                     break;
                 case 2 :

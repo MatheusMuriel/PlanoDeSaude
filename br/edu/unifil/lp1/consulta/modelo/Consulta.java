@@ -2,12 +2,13 @@ package br.edu.unifil.lp1.consulta.modelo;
 
 public class Consulta
 {
-    protected String nomeDoPaciente;
-    protected int matricula;
-    protected int numeroDeDependentes;
-    protected int anoDeInclusaoNoPlano;
-    protected float valorDaConsulta;
-
+    public String nomeDoPaciente;
+    public int matricula;
+    public int numeroDeDependentes;
+    public int anoDeInclusaoNoPlano;
+    public float valorDaConsulta;
+    public int planoPaciente;
+    
     public String getNomeDoPaciente ()
     {
        return nomeDoPaciente;
