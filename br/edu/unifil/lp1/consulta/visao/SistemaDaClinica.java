@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class SistemaDaClinica
 {
     public static void main(String args[]){
-        CadastroDeConsultas novaConsulta = new CadastroDeConsultas();
+        CadastroDeConsultas CdC = new CadastroDeConsultas();
         Scanner teclado = new Scanner(System.in);
         String nomeDoPaciente;
         int matricula;
@@ -42,7 +42,7 @@ public class SistemaDaClinica
                                 System.out.println("3- Plano Prata");
                                 System.out.println("4- Plano Familia");
                     planoPaciente = teclado.nextInt();
-                    novaConsulta.incluirConsulta(nomeDoPaciente, matricula, numeroDeDependentes, 
+                    CdC.incluirConsulta(nomeDoPaciente, matricula, numeroDeDependentes, 
                                     anoDeInclusaoNoPlano, valorDaConsulta, planoPaciente);
                     break;
                 case 2 :
@@ -52,6 +52,7 @@ public class SistemaDaClinica
                                 System.out.println("3- Plano Prata");
                                 System.out.println("4- Plano Familia");
                     planoPaciente = teclado.nextInt();
+                     CdC.consultasPorPlano(planoPaciente);
                     break;
                 case 3 : 
                     System.out.print("Digite o numero do plano: \n");

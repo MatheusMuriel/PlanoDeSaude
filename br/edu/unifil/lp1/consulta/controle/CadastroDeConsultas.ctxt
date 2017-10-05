@@ -2,6 +2,6 @@
 comment0.target=CadastroDeConsultas
 comment1.params=nomeDoPaciente\ matricula\ numeroDeDependentes\ anoDeInclusaoNoPlano\ valorDaConsulta\ planoPaciente
 comment1.target=void\ incluirConsulta(java.lang.String,\ int,\ int,\ int,\ float,\ int)
-comment2.params=
-comment2.target=void\ consultasPorPlano()
+comment2.params=planoPaciente
+comment2.target=void\ consultasPorPlano(int)
 numComments=3
