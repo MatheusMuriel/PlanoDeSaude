@@ -1,4 +1,5 @@
 package br.edu.unifil.lp1.consulta.visao;
+
 import br.edu.unifil.lp1.consulta.controle.*;
 import java.util.Scanner;
 public class SistemaDaClinica
@@ -25,7 +26,7 @@ public class SistemaDaClinica
             System.out.println("9- Fim");
             opcao = teclado.nextInt();
             switch(opcao){
-                case 1 : 
+                case 1 :
                     System.out.print("Nome do paciente: ");
                                 nomeDoPaciente = teclado.next();
                     System.out.print("Matricula: ");
@@ -42,7 +43,7 @@ public class SistemaDaClinica
                                 System.out.println("3- Plano Prata");
                                 System.out.println("4- Plano Familia");
                     planoPaciente = teclado.nextInt();
-                    CdC.incluirConsulta(nomeDoPaciente, matricula, numeroDeDependentes, 
+                    CdC.incluirConsulta(nomeDoPaciente, matricula, numeroDeDependentes,
                                     anoDeInclusaoNoPlano, valorDaConsulta, planoPaciente);
                     break;
                 case 2 :
@@ -54,7 +55,7 @@ public class SistemaDaClinica
                     planoPaciente = teclado.nextInt();
                      CdC.consultasPorPlano(planoPaciente);
                     break;
-                case 3 : 
+                case 3 :
                     System.out.print("Digite o numero do plano: \n");
                                 System.out.println("1- Plano Diamante");
                                 System.out.println("2- Plano Ouro");

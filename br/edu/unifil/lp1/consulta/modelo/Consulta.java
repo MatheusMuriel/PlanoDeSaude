@@ -8,25 +8,15 @@ public class Consulta
     protected int       anoDeInclusaoNoPlano;
     protected float     valorDaConsulta;
     protected int       planoPaciente;
-
-    public Consulta(String nomeDoPaciente,
-    int matricula, int numeroDeDependentes, int anoDeInclusaoNoPlano, float valorDaConsulta, int planoPaciente){
-        this.nomeDoPaciente = nomeDoPaciente;
-        this.matricula = matricula;
-        this.numeroDeDependentes = numeroDeDependentes;
-        this.anoDeInclusaoNoPlano = anoDeInclusaoNoPlano;
-        this.valorDaConsulta = valorDaConsulta;
-        this.planoPaciente = planoPaciente;
-    }
-
+    
     public String getNomeDoPaciente ()
     {
         return nomeDoPaciente;
     }
 
-    public void setNomeDoPaciente (String NomeDoPaciente)
+    public void setNomeDoPaciente (String nomeDoPaciente)
     {
-        this.nomeDoPaciente = NomeDoPaciente;
+        this.nomeDoPaciente = nomeDoPaciente;
     }
 
     public int getMatricula ()
@@ -34,9 +24,9 @@ public class Consulta
         return matricula;
     }
 
-    public void setMatricula (int Matricula)
+    public void setMatricula (int matricula)
     {
-        this.matricula = Matricula;
+        this.matricula = matricula;
     }
 
     public int getNumeroDeDependentes ()
@@ -44,9 +34,9 @@ public class Consulta
         return numeroDeDependentes;
     }
 
-    public void setNumeroDeDependentes (int NumeroDeDependentes)
+    public void setNumeroDeDependentes (int numeroDeDependentes)
     {
-        this.numeroDeDependentes = NumeroDeDependentes; 
+        this.numeroDeDependentes = numeroDeDependentes; 
     }
 
     public int getAnoDeInclusaoNoPlano ()
@@ -54,9 +44,9 @@ public class Consulta
         return anoDeInclusaoNoPlano;
     }
 
-    public void setAnoDeInclusaoNoPlano (int AnoDeInclusaoNoPlano)
+    public void setAnoDeInclusaoNoPlano (int anoDeInclusaoNoPlano)
     {
-        this.anoDeInclusaoNoPlano = AnoDeInclusaoNoPlano;
+        this.anoDeInclusaoNoPlano = anoDeInclusaoNoPlano;
     }
 
     public float getValorDaConsulta ()
@@ -64,13 +54,18 @@ public class Consulta
         return valorDaConsulta;
     }
 
-    public void setValorDaConsulta (float ValorDaConsulta)
+    public void setValorDaConsulta (float valorDaConsulta)
     {
-        this.valorDaConsulta = ValorDaConsulta;
+        this.valorDaConsulta = valorDaConsulta;
     }
 
     public int getPlanoPaciente ()
     {
         return planoPaciente;
+    }
+    
+    public void setPlanoPaciente (int planoPaciente)
+    {
+        this.planoPaciente = planoPaciente;
     }
 }

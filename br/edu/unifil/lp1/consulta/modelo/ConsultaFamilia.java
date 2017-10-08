@@ -3,7 +3,7 @@ package br.edu.unifil.lp1.consulta.modelo;
 public class ConsultaFamilia extends Consulta
 {
     public ConsultaFamilia(String nomeDoPaciente,
-                int matricula, int numeroDeDependentes, int anoDeInclusaoNoPlano, float valorDaConsulta){
+                int matricula, int numeroDeDependentes, int anoDeInclusaoNoPlano, float valorDaConsulta, int planoPaciente){
         super.setNomeDoPaciente(nomeDoPaciente);
         super.setMatricula(matricula);
         super.setNumeroDeDependentes(numeroDeDependentes);

@@ -10,7 +10,7 @@ public class TestePorcentagem
         //Criando um objeto
         //Consulta novaConsulta = new Consulta();
         //Dando valor 
-        novaConsulta.matricula = 2; //A uma variavel existente em COnsulta
+        //novaConsulta.matricula = 2; //A uma variavel existente em COnsulta
         //Alocando em uma posisão
         //listaConsultas[0] = novaConsulta; //Colocando a novaConsulta na posição 0
         
