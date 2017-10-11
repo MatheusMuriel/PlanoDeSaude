@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=ConsultaPrata
 comment1.params=nomeDoPaciente\ matricula\ numeroDeDependentes\ anoDeInclusaoNoPlano\ valorDaConsulta\ planoPaciente
-comment1.target=ConsultaPrata(java.lang.String,\ int,\ int,\ int,\ float,\ int)
+comment1.target=ConsultaPrata(java.lang.String,\ java.lang.String,\ int,\ int,\ float,\ int)
 comment2.params=
-comment2.target=float\ getValorConsulta()
+comment2.target=float\ getValorDaConsulta()
 numComments=3

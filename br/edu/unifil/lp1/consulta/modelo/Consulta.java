@@ -3,12 +3,12 @@ package br.edu.unifil.lp1.consulta.modelo;
 public class Consulta
 {
     protected String    nomeDoPaciente;
-    protected int       matricula; //Professor fez string
+    protected String    matricula; //Professor fez string
     protected int       numeroDeDependentes;
     protected int       anoDeInclusaoNoPlano;
     protected float     valorDaConsulta;
     protected int       planoPaciente;
-    
+
     public String getNomeDoPaciente ()
     {
         return nomeDoPaciente;
@@ -19,12 +19,12 @@ public class Consulta
         this.nomeDoPaciente = nomeDoPaciente;
     }
 
-    public int getMatricula ()
+    public String getMatricula ()
     {
         return matricula;
     }
 
-    public void setMatricula (int matricula)
+    public void setMatricula (String matricula)
     {
         this.matricula = matricula;
     }
@@ -36,7 +36,7 @@ public class Consulta
 
     public void setNumeroDeDependentes (int numeroDeDependentes)
     {
-        this.numeroDeDependentes = numeroDeDependentes; 
+        this.numeroDeDependentes = numeroDeDependentes;
     }
 
     public int getAnoDeInclusaoNoPlano ()
@@ -63,9 +63,10 @@ public class Consulta
     {
         return planoPaciente;
     }
-    
+
     public void setPlanoPaciente (int planoPaciente)
     {
         this.planoPaciente = planoPaciente;
     }
+
 }

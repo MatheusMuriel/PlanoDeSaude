@@ -8,21 +8,18 @@ public class SistemaDaClinica
         CadastroDeConsultas CdC = new CadastroDeConsultas();
         Scanner teclado = new Scanner(System.in);
         String nomeDoPaciente;
-        int matricula;
+        String matricula;
         int numeroDeDependentes;
         int anoDeInclusaoNoPlano;
         float valorDaConsulta;
         int planoPaciente;
         int opcao = 0;
-
-        while(opcao != 10){
-            //Agendar uma consulta
-            //Deve ser criado se informado os dados do paciente
-            System.out.println("\n");
-            System.out.println("1- Nova consulta"); //Antes disso cadastrar paciente
+        int consultaPlano;
+        while(opcao != 9){
+            System.out.println("1- Nova consulta");
             System.out.println("2- Consultas cadastradas por plano");
-            System.out.println("3- Total de consultas por plano");
-            System.out.println("4- Total de renda por plano");
+            System.out.println("3- Numero total de consultas por plano");
+            System.out.println("4- Valor total de consultas po plano");
             System.out.println("9- Fim");
             opcao = teclado.nextInt();
             switch(opcao){
@@ -30,7 +27,7 @@ public class SistemaDaClinica
                     System.out.print("Nome do paciente: ");
                                 nomeDoPaciente = teclado.next();
                     System.out.print("Matricula: ");
-                                matricula = teclado.nextInt();
+                                matricula = teclado.next();
                     System.out.print("Numero de Dependentes: ");
                                 numeroDeDependentes = teclado.nextInt();
                     System.out.print("Ano de inclusão no Plano: ");
@@ -45,6 +42,7 @@ public class SistemaDaClinica
                     planoPaciente = teclado.nextInt();
                     CdC.incluirConsulta(nomeDoPaciente, matricula, numeroDeDependentes,
                                     anoDeInclusaoNoPlano, valorDaConsulta, planoPaciente);
+                    System.out.println("\n");
                     break;
                 case 2 :
                     System.out.print("Digite o numero do plano: \n");
@@ -52,8 +50,9 @@ public class SistemaDaClinica
                                 System.out.println("2- Plano Ouro");
                                 System.out.println("3- Plano Prata");
                                 System.out.println("4- Plano Familia");
-                    planoPaciente = teclado.nextInt();
-                     CdC.consultasPorPlano(planoPaciente);
+                    consultaPlano = teclado.nextInt();
+                    CdC.consultasPorPlano(consultaPlano);
+                    System.out.println("\n");
                     break;
                 case 3 :
                     System.out.print("Digite o numero do plano: \n");
@@ -61,7 +60,9 @@ public class SistemaDaClinica
                                 System.out.println("2- Plano Ouro");
                                 System.out.println("3- Plano Prata");
                                 System.out.println("4- Plano Familia");
-                    planoPaciente = teclado.nextInt();
+                    consultaPlano = teclado.nextInt();
+                    CdC.numeroConsultas(consultaPlano);
+                    System.out.println("\n");
                     break;
                 case 4 :
                     System.out.print("Digite o numero do plano: \n");
@@ -69,7 +70,9 @@ public class SistemaDaClinica
                                 System.out.println("2- Plano Ouro");
                                 System.out.println("3- Plano Prata");
                                 System.out.println("4- Plano Familia");
-                    planoPaciente = teclado.nextInt();
+                    consultaPlano = teclado.nextInt();
+                    CdC.valorTotalConsultas(consultaPlano);
+                    System.out.println("\n");
                     break;
             }
         }

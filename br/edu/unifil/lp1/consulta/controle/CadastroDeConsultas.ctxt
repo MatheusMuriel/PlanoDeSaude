@@ -1,7 +1,11 @@
 #BlueJ class context
 comment0.target=CadastroDeConsultas
 comment1.params=nomeDoPaciente\ matricula\ numeroDeDependentes\ anoDeInclusaoNoPlano\ valorDaConsulta\ planoPaciente
-comment1.target=void\ incluirConsulta(java.lang.String,\ int,\ int,\ int,\ float,\ int)
-comment2.params=planoPaciente
+comment1.target=void\ incluirConsulta(java.lang.String,\ java.lang.String,\ int,\ int,\ float,\ int)
+comment2.params=consultaPlano
 comment2.target=void\ consultasPorPlano(int)
-numComments=3
+comment3.params=consultaPlano
+comment3.target=void\ numeroConsultas(int)
+comment4.params=consultaPlano
+comment4.target=void\ valorTotalConsultas(int)
+numComments=5
